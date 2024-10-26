@@ -1,5 +1,10 @@
+
+from headers import GUIheader
+
 def main():
     print("Inside Main")
 
-if _name_ == "_main_":
+    GUIheader.create_syncro_login()
+
+if __name__ == "__main__":
     main()
